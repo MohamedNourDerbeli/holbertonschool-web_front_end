@@ -41,8 +41,9 @@ a[href]{
 	color: #161616;
 	text-decoration-line: none;
 }
-a:visited {
-	font-style: italic;
+
+a[href]:visited em {
+	font-style: italic; /* Added italic style for visited links */
 }
 a:hover {
 	text-decoration: underline;
