@@ -177,7 +177,7 @@ template {
 	--section-title-color: var(--color-black);
 }
 * {
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 html {
 	scroll-behavior: smooth;
