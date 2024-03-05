@@ -319,4 +319,8 @@ h6 {
     margin: 0;
     font-size: var(--font-size-small);
     color: var(--text-color);
+
+}
+.footer .ul{
+    text-align: right;
 }
