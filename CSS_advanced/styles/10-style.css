@@ -20,7 +20,7 @@
 	--line-height-small: 1.2;
 	--line-height-base: 1.5;
 	--line-height-big: 1.8;
-    --section-header-align:  center;
+	--section-header-align: center;
 }
 html {
 	scroll-behavior: smooth;
@@ -32,11 +32,11 @@ body {
 	color: #161616;
 	font-size: var(--font-size-medium);
 	font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
+	line-height: var(--line-height-base);
 }
 a {
 	color: #161616;
-    text-decoration: none;
+	text-decoration: none;
 }
 h1,
 h2,
@@ -57,6 +57,6 @@ h6 {
 .section-tagline {
 	color: var(--color-primary);
 }
-.section-header{
-    text-align: center;
+.section-header {
+	text-align: center;
 }
