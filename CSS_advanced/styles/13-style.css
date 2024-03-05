@@ -42,6 +42,7 @@ a {
 	text-decoration-line: none;
 }
 a:visited {
+    text-decoration-line: none;
 	font-style: italic;
 }
 a:hover {
