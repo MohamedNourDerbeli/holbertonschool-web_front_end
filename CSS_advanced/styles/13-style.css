@@ -40,7 +40,6 @@ body {
 a[href] {
 	color: #161616;
 	text-decoration-line: none;
-    font-style: italic;
 }
 a:visited {
 	text-decoration-line: none;
