@@ -42,8 +42,6 @@ a {
 	text-decoration-line: none;
 }
 a:visited {
-	color: #161616;
-	text-decoration-line: none;
 	font-style: italic;
 }
 a:hover {
