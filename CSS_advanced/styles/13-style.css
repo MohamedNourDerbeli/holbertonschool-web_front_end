@@ -37,12 +37,12 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
-a {
+a[href] {
 	color: #161616;
 	text-decoration-line: none;
 }
 a:visited {
-	font-style: var(--font-family-base);
+	font-style: var(--font-family-base) ;
 }
 a:hover {
 	text-decoration: underline;
