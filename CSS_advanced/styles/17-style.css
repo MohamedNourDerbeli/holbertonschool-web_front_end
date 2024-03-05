@@ -247,16 +247,21 @@ h6 {
 	margin: var(--section-title-margin);
 	color: var(--section-title-color);
 }
-.section{
-    padding: var(--section-padding);
+.section {
+	padding: var(--section-padding);
 }
 .section-header {
-    padding: var(--section-header-padding);
+	padding: var(--section-header-padding);
 	text-align: var(--section-header-align);
 }
-.section-body{
-    padding: var(--section-body-padding);
+.section-body {
+	padding: var(--section-body-padding);
 }
-.section-footer{
-    padding: var(--footer-padding)
+.section-footer {
+	padding: var(--section-footer-padding);
+    text-align: var(--section-footer-align);
+
+}
+.footer{
+    padding: var(--footer-padding);
 }
