@@ -58,5 +58,5 @@ h6 {
 	color: var(--color-primary);
 }
 .section-header {
-	text-align: center;
+	text-align: var(--section-header-align);
 }
