@@ -40,17 +40,18 @@ body {
 a[href]{
 	color: #161616;
 	text-decoration-line: none;
+    &:visited {
+        font-style: italic; /* Added italic style for visited links */
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+    &:active {
+        background-color: var(--color-light-grey);
+    }
 }
 
-a:visited {
-	font-style: italic; 
-}
-a:hover {
-	text-decoration: underline;
-}
-a:active {
-	background-color: var(--color-light-grey);
-}
+
 h1,
 h2,
 h3,
