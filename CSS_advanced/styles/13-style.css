@@ -37,18 +37,18 @@ body {
 	font-weight: var(--font-weight-regular);
 	line-height: var(--line-height-base);
 }
-a {
+a[href] {
 	color: #161616;
 	text-decoration-line: none;
 }
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 a:active {
-	background-color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 a:visited {
-	font-style: var(--font-family-base);
+    font-style: var(--font-family-base) ;
 }
 h1,
 h2,
