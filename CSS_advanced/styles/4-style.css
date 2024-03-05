@@ -7,8 +7,8 @@
 	--color-light-grey: #f3f3f3;
 	--color-dark-grey: #353535;
 	--text-color: var(--color-black);
-	--font-family-base: "Helvetica Neue", Arial, sans-serif, Helvetica;
-	--font-family-tittle: "Helvetica Neue", Arial, sans-serif, Helvetica;
+	--font-family-base: ["Helvetica Neue", Arial, sans-serif, Helvetica];
+	--font-family-tittle: ["Helvetica Neue", Arial, sans-serif, Helvetica];
 }
 html {
 	scroll-behavior: smooth;
