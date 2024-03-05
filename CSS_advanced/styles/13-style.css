@@ -41,7 +41,7 @@ a[href] {
 	color: #161616;
 	text-decoration-line: none;
 }
-a:visited {
+a:visited em {
 	font-style: italic;
 }
 a:hover {
