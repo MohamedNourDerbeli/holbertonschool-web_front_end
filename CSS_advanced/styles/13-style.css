@@ -40,14 +40,15 @@ body {
 a {
 	color: #161616;
 	text-decoration-line: none;
-
-
 }
-a:visited{
-    font-style: italic;
+a:visited {
+	font-style: italic;
 }
 a:hover {
-    background-color: var(--color-light-grey);
+	text-decoration: underline;
+}
+a:active {
+	background-color: var(--color-light-grey);
 }
 h1,
 h2,
