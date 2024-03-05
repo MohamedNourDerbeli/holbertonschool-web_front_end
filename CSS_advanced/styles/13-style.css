@@ -42,8 +42,8 @@ a[href]{
 	text-decoration-line: none;
 }
 
-a:visited em {
-	font-style: italic; /* Added italic style for visited links */
+a:visited {
+	font-style: italic; 
 }
 a:hover {
 	text-decoration: underline;
