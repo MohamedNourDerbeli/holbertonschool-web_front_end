@@ -40,9 +40,11 @@ body {
 a[href] {
 	color: #161616;
 	text-decoration-line: none;
+    font-style: italic;
 }
 a:visited {
-	font-style: italic;
+    color: #161616;
+	text-decoration-line: none;
 }
 a:hover {
 	text-decoration: underline;
