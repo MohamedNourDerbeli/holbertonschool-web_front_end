@@ -41,13 +41,13 @@ a[href] {
 	color: #161616;
 	text-decoration-line: none;
 }
-a:visited {
-	font-style: italic;
+a[href]:visited {
+	font-style: var(--font-family-base) ;
 }
-a:hover {
+a[href]:hover {
 	text-decoration: underline;
 }
-a:active {
+a[href]:active {
 	background-color: var(--color-light-grey);
 }
 h1,
