@@ -199,15 +199,7 @@ template {
 	background: var(--color-black);
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
-	.footer-address {
-		color: var(--text-color);
-	}
-	.section-link {
-		display: block;
-	}
-	.social-link svg {
-		fill: var(--text-color);
-	}
+
 }
 html {
 	scroll-behavior: smooth;
@@ -338,4 +330,13 @@ ul.row {
 [class^="col-"] {
 	float: left;
 	padding: 0.5rem;
+}
+.footer-address {
+    color: var(--text-color);
+}
+.section-link {
+    display: block;
+}
+.social-link svg {
+    fill: var(--text-color);
 }
