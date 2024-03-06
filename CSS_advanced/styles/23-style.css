@@ -199,7 +199,6 @@ template {
 	background: var(--color-black);
 	--text-color: var(--color-white);
 	--section-title-color: var(--color-white);
-
 }
 html {
 	scroll-behavior: smooth;
@@ -314,6 +313,10 @@ ul.row {
 .col-1-2 {
 	width: 50%;
 }
+[class^="col-"] {
+	float: left;
+	padding: 0.5rem;
+}
 .footer-copyright {
 	margin: 0;
 	font-size: var(--font-size-small);
@@ -327,16 +330,12 @@ ul.row {
 	display: table;
 	clear: both;
 }
-[class^="col-"] {
-	float: left;
-	padding: 0.5rem;
-}
 .footer-address {
-    color: var(--text-color);
+	color: var(--text-color);
 }
 .section-link {
-    display: block;
+	display: block;
 }
 .social-link > svg {
-    fill: var(--text-color);
+	fill: var(--text-color);
 }
