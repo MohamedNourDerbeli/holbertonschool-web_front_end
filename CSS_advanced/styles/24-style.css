@@ -4,7 +4,7 @@
  * @format
  */
 
- html[data-section-theme="“dark”"] {
+html[data-section-theme="“dark”"] {
 	line-height: 1.15;
 	-webkit-text-size-adjust: 100%;
 }
@@ -341,16 +341,16 @@ ul.row {
 .social-link > svg {
 	fill: var(--text-color);
 }
-.card-services .card-title{
-    margin: 0;
+.card-services .card-title {
+	margin: 0;
 }
-.card-services a{
-    display: block;
-    padding: 2rem;
-    background: var(--color-light-grey);
+.card-services a {
+	display: block;
+	padding: 2rem;
+	background: var(--color-light-grey);
 }
-.card-services a:hover{
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    text-decoration: none;
+.card-services a:hover {
+	color: var(--color-white);
+	background-color: var(--color-primary);
+	text-decoration: none;
 }
