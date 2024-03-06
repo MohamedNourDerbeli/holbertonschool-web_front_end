@@ -235,7 +235,7 @@ h6 {
 	background-color: var(--color-white);
 	width: 0;
 	height: 0.2rem;
-	transition: var(–-transition-duration) var(--transition-cubic-bezier);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .nav .nav-item:hover .nav-link::before {
 	/* Expand pseudo-element on hover */
@@ -384,7 +384,7 @@ ul.row {
 .card-work:hover .card-image {
 	/* Transform and transition for work card images on hover */
 	transform: scale(1.2);
-	transition: var(–-transition-duration) var(--transition-cubic-bezier);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-outer {
 	/* Transform and transition for work card outer container on hover */
@@ -398,7 +398,7 @@ ul.row {
 	left: -0.1rem;
 	right: -0.1rem;
 	z-index: 1;
-	transition: var(–-transition-duration) var(--transition-cubic-bezier);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 .card-work:hover .card-inner {
 	/* Background color for work card inner container on hover */
@@ -420,12 +420,12 @@ ul.row {
 }
 .card-work .card-title a::after {
 	/* Pseudo-element for work card title hover effect */
-	content: "";
 	position: absolute;
 	top: 0;
 	right: 0;
 	left: 0;
 	bottom: 0;
+	content: "";
 }
 .card-work:hover .card-title {
 	/* Opacity for work card titles on hover */
