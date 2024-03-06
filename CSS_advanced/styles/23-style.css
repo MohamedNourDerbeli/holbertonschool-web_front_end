@@ -332,11 +332,11 @@ ul.row {
 	padding: 0.5rem;
 }
 .footer-address {
-    color: var(--text-color);
+    colofr: var(--text-color);
 }
 .section-link {
     display: block;
 }
 .social-link svg {
-    filll: var(--text-color);
+    fill: var(--text-color);
 }
